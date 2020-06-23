@@ -1,0 +1,15 @@
+{
+  "main.js": "/dist/js/main.bundle.js",
+  "vendor.js": "/dist/js/vendor.bundle.js",
+  "fonts/MaterialIcons-Regular.eot": "/dist/fonts/MaterialIcons-Regular.eot?4674",
+  "fonts/MaterialIcons-Regular.woff": "/dist/fonts/MaterialIcons-Regular.woff?83be",
+  "fonts/Roboto-Regular.eot": "/dist/fonts/Roboto-Regular.eot?30b5",
+  "fonts/Roboto-Regular.woff2": "/dist/fonts/Roboto-Regular.woff2?a258",
+  "fonts/Roboto-Regular.woff": "/dist/fonts/Roboto-Regular.woff?3101",
+  "fonts/Rubik-Black.eot": "/dist/fonts/Rubik-Black.eot?fb0f",
+  "fonts/Rubik-Black.woff": "/dist/fonts/Rubik-Black.woff?c203",
+  "img/logo-pilsen-callao.png": "/dist/img/logo-pilsen-callao.png?5621",
+  "img/m-shoopkeeper.png": "/dist/img/m-shoopkeeper.png?bfa9",
+  "img/pilsen-botella-1.png": "/dist/img/pilsen-botella-1.png?a559",
+  "img/w-shoopkeeper.png": "/dist/img/w-shoopkeeper.png?259c"
+}

@@ -1,0 +1,10 @@
+//
+// Element Control
+//
+
+%control {
+}
+
+.form-control {
+  @extend %control;
+}
