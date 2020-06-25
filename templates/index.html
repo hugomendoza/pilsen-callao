@@ -6,80 +6,129 @@
       name="viewport"
       content="width=device-width,initial-scale=1"
     />
-    <title>Frontend template</title>
+    <title>Pilsen Callao Eiqueta Blanca</title>
     <link rel="stylesheet" href="./../dist/css/main.css" />
   </head>
-  <body class="p-home">
-    <!-- Nav -->
-    <nav class="c-nav nav fixed w-full">
-      <div class="container p-0">
-        <div class="row justify-content-between">
-          <a class="navbar-brand w-20" href="#">
-            <img src="./../dist/img/logo-pilsen-callao.png" alt="Pilsen Callao">
-          </a>
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#">Etiquetas</a>
-            <a class="nav-item nav-link" href="#">Conócenos</a>
-            <a class="nav-item nav-link" href="#">Regístrate</a>
-            <a class="nav-item nav-link" href="#">Facebook</a>
-            <a class="nav-item nav-link" href="#">Twitter</a>
-            <a class="nav-item nav-link" href="#">Youtube</a>
+  <body>
+    <main>
+      <!-- Header -->
+      <header class="fixed-top">
+        <nav class="c-navbar navbar navbar-expand-md">
+          <div class="container">
+            <a href="/" class="navbar-brand">
+              <img src="./../dist/img/logo-pilsen-callao.png" alt="Pilsen Callao">
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse md:ml-auto md:flex-grow-0" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <strong>Etiquetas</strong>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <strong>Conócenos</strong>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <strong>Regístrate</strong>
+                  </a>
+                </li>
+                <li class="nav-item c-social-media-wrap">
+                  <section class="c-social-media">
+                    <ul class="c-social-media__list">
+                      <li class="c-social-media__list-item w-6 h-6 rounded-full rounded-full text-center">
+                        <a href="/" target="_blank" class="c-social-media__link">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                      </li>
+                      <li class="c-social-media__list-item w-6 h-6 rounded-full rounded-full text-center mx-2">
+                        <a href="/" target="_blank" class="c-social-media__link">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="c-social-media__list-item w-6 h-6 rounded-full rounded-full text-center">
+                        <a href="/" target="_blank" class="c-social-media__link">
+                          <i class="fab fa-youtube"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </section>
+                </li>
+              </ul>
+            </div>
           </div>
+        </nav>
+      </header>
+      <!-- End Hedder -->
+      <!-- Banner -->
+      <article class="c-banner bg-primary-500 relative overflow-hidden h-screen">
+        <div class="wrap-slider-banner">
+          <img src="./../dist/img/m-shoopkeeper.jpg"
+            alt="Tendero"
+            class="hidden lg:block absolute h-full inset-0 w-full object-cover"
+          >
+          <img src="./../dist/img/w-shoopkeeper.jpg"
+            alt="Tendero"
+            class="hidden lg:block absolute h-full inset-0 w-full object-cover"
+          >
         </div>
-      </div>
-    </nav>
-    <!-- End Nav -->
-    <!-- Contenido banner -->
-    <main class="h-screen">
-      <div class="container-fluid p-0 h-full">
-        <div class="row justify-content-around flex-row-reverse align-items-center h-full">
-          <div class="col-lg-6">
-            <h1>
-              DEJAMOS NUESTROS
-              <strong>COLORES</strong>
-            </h1>
-            <h2>para proteger a nuestros patas bodeguer@s</h2>
-            <a class="btn btn-primary" href="">conoce más</a>
-          </div>
-          <div class="col-lg-6 h-full">
-            <div class="wrap-slider-images">
-              <div>
-                <img class="absolute bottom-0 left-0" src="./../dist/img/m-shoopkeeper.png" alt="shoopkeeper">
-              </div>
-              <div>
-                <img class="absolute bottom-0 left-0" src="./../dist/img/w-shoopkeeper.png" alt="shoopkeeper">
-              </div>
+        <div class="container h-100">
+          <div class="row h-100 lg:items-center lg:justify-end">
+            <div class="c-title-banner col-lg-5 mt-32">
+              <h2 class="text-white md:text-center lg:text-left">
+                DEJAMOS NUESTROS
+              </h2>
+              <h1 class="text-white md:text-center lg:text-left">COLORES</h1>
+              <h3 class="text-white md:text-center lg:text-left">
+                <strong>para proteger a nuestr@s<br>patas bodeguer@s</strong>
+              </h3>
+              <a
+                href="/"
+                class="btn btn-primary uppercase text-white"
+                >
+                <strong>conoce más</strong>
+              </a>
             </div>
           </div>
         </div>
-        <img class="absolute" src="./../dist/img/pilsen-botella-1.png" alt="Pilsen Callao">
-      </div>
-    </main>
-    <!-- Fin contenido Banner-->
-    <!-- footer -->
-    <footer class="c-footer">
-      <div class="container">
-        <div class="row justify-content-between">
-          <a href="">
-            POLÍTICA DE PROTECCIÓN DATOS GLOBAL
-          </a>
-          <a href="">
-            POLÍTICA DE PROTECCIÓN DE DATOS PERÚ
-          </a>
-          <a href="">
-            EJERCICIO DERECHOS ARCO
-          </a>
-          <a href="">
-            HABLEMOS DE ALCOHOL
-          </a>
-          <a href="">
-            ©2019 ANHEUSER-BUSCH INBEV S.A
-          </a>
+        <img src="./../dist/img/pilsen-botella-1.png"
+          class="banner__bottle absolute max-h-full"
+          alt="Pilsen Callao"
+        >
+      </article>
+      <!-- End Banner -->
+      <!-- Footer -->
+      <footer class="c-footer fixed-bottom py-2">
+        <ul class="c-footer__list lg:flex lg:justify-center m-0">
+          <li class="c-footer__item">
+            <a href="/">POLÍTICA DE PROTECCIÓN DATOS GLOBAL</a>
+          </li>
+          <li class="c-footer__item">
+            <a href="/">POLÍTICA DE PROTECCIÓN DE DATOS PERÚ</a>
+          </li>
+          <li class="c-footer__item">
+            <a href="/">EJERCICIO DERECHOS ARCO</a>
+          </li>
+          <li class="c-footer__item">
+            <a href="/">HABLEMOS DE ALCOHOL</a>
+          </li>
+          <li class="c-footer__item">
+            <a href="/">©2020 ANHEUSER-BUSCH INBEV S.A</a>
+          </li>
+        </ul>
+        <div class="c-footer__disclaimer mt-1">
+          <p class="text-center m-0">TOMAR BEBIDAS ALCOHÓLICAS EN EXCESO ES DAÑINO</p>
         </div>
-      </div>
-      <p>TOMAR BEBIDAS ALCOHÓLICAS EN EXCESO ES DAÑINO</p>
-    </footer>
-    <!-- Fin footer -->
+      </footer>
+      <!-- End footer -->
+    </main>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b0a7f78e7d.js" crossorigin="anonymous"></script>
     <!--jQuery-->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -28,15 +28,25 @@ $container-max-widths: (
 // Colors
 $white: #ffffff;
 $black: #2c3e50;
-$primary: #1e77c1;
+$primary: #93C90F;
 $secondary: #8ed5fa;
+$gray: #A7A7A7;
 
 //
 // Bootstrap root
 //
+@import "~bootstrap/scss/bootstrap-reboot";
+
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/grid";
 @import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/navbar";
+
+
 @import "~bootstrap/scss/utilities/flex";
+@import "~bootstrap/scss/utilities/display";
+@import "~bootstrap/scss/utilities/position";
+@import "~bootstrap/scss/utilities/text";
+@import "~bootstrap/scss/utilities/sizing";

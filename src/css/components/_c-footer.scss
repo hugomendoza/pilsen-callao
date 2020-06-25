@@ -1,0 +1,19 @@
+.c-footer {
+  background-color: rgba($color: #143808, $alpha: 0.8);
+  .c-footer__item {
+    a {
+      font-size: rem(8);
+      color: $gray;
+      margin: 0 rem(15);
+      font-family: $font-stack-dinpro;
+    }
+  }
+  .c-footer__disclaimer {
+    p {
+      font-family: $font-stack-dinpro;
+      color: $gray;
+      font-size: rem(12);
+      letter-spacing: 10px;
+    }
+  }
+}

@@ -56,13 +56,20 @@ $custom-scale: (
   ),
 );
 
+$font-stack-primary: "RidleyGroteskW00-SemiBold";
+$font-stack-secondary: "Sequel100Wide-95";
+$font-stack-sequel: "Sequel100Wide-105";
+$font-stack-dinpro: "DINPro";
+
 // Paths
 $asset-base-path: "..";
 
 :root {
   // fontFamily
-  --font-family-primary: Roboto;
-  --font-family-secondary: Rubik;
+  --font-family-primary: RidleyGroteskW00-SemiBold;
+  --font-family-secondary: Sequel100Wide-95;
+  --font-family-sequel: Sequel100Wide-105;
+  --font-family-dinpro: DINPro;
   --font-material-icons: Material Icons;
   // fontSize
   @include set-text($custom-scale);

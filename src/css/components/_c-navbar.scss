@@ -1,0 +1,25 @@
+//Component navbar
+//----------------
+
+.c-navbar {
+  background-color: rgba($color: #000000, $alpha: .25);
+  .navbar-brand {
+    z-index: 1;
+    img {
+      height: rem(40);
+      object-fit: contain;
+
+      @include media-breakpoint-up(xxl) {
+        height: rem(44);
+      }
+    }
+  }
+  .nav-link {
+    font-size: rem(14);
+    color: white;
+    margin: 0 rem(6);
+    &:hover {
+      color: $primary;
+    }
+  }
+}

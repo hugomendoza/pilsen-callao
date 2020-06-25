@@ -1,0 +1,16 @@
+.c-social-media {
+  &__list {
+    align-items: center;
+    display: flex;
+  }
+  &__list-item {
+    @include transition();
+    display: block;
+    background-color: white;
+  }
+  &__link {
+    i {
+      font-size: rem(14);
+    }
+  }
+}

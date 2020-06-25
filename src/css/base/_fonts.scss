@@ -3,5 +3,8 @@
 //
 
 @include font-face(var(--font-material-icons), "MaterialIcons-Regular");
-@include font-face(var(--font-family-primary), "Roboto-Regular");
-@include font-face(var(--font-family-secondary), "Rubik-Black", 900);
+@include font-face(var(--font-family-primary), "RidleyGroteskW00-SemiBold", 600);
+@include font-face(var(--font-family-primary), "RidleyGroteskW00-Light", 300);
+@include font-face(var(--font-family-secondary), "Sequel100Wide-95", 900);
+@include font-face(var(--font-family-sequel), "Sequel100Black-105", 900);
+@include font-face(var(--font-family-dinpro), "DINPro", 400);
